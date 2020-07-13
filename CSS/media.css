@@ -1,0 +1,135 @@
+@media (max-width: 992px){
+    .header_text > h2{
+        font-size: 35px;
+    }
+    
+    .header_text > h1{
+        font-size: 55px;
+    }
+/*======================main========about-us=============== */
+    .about-us-block:nth-of-type(odd){
+        flex-direction: row-reverse;
+    }
+
+    .about-us-right{
+        display: none;
+    }
+
+    .about-us-block:nth-of-type(odd) > .about-us-left{
+        align-items: flex-start;
+        text-align: left;
+    }
+/*  ======================main========about-us=============== */
+/*  ======================main========footer-block=============== */
+
+footer > div{
+    flex-direction: column-reverse;
+}
+
+.footer_left{
+    width: auto;
+    margin-top: 15px; 
+}
+
+.footer_left > h5{
+    text-align: center;
+}
+
+.footer_right{
+    display: none;
+}
+
+/*  ======================main========footer-block=============== */
+
+}
+
+@media (max-width: 768px){
+
+    .header_text > h2{
+        font-size: 30px;
+    }
+    
+    .header_text > h1{
+        font-size: 40px;
+    }
+
+/*  ======================main========about-us=============== */
+.about-us-block:nth-of-type(odd), .about-us-block:nth-of-type(even){
+        flex-direction: column-reverse;
+    }
+    
+    .about-us-center{
+        flex-direction: row;
+        padding: 40px 0;
+    
+    }
+    
+    .line_block{
+        width: auto;
+        height: 7px;
+    }
+
+    .about-us-block:first-child > .about-us-center > .line_block:first-child{
+        background: rgb(241, 241, 241);
+    } 
+
+    .about-us-block:last-child > .about-us-center > .line_block:last-child{
+        display: block;
+    } 
+
+    .about-us-block:nth-of-type(even) > .about-us-left, .about-us-block:nth-of-type(odd) > .about-us-left{
+        align-items: center;
+        text-align: center;
+    }
+/*  ======================main========about-us=============== */
+/*  ======================main========logo-block=============== */
+    .logo-block > div{
+        flex-direction: column;
+    }
+    
+    .logo-block > div > img{
+        margin: 10px 0;
+    }
+
+    .logo-block > div > img:first-child{
+        margin-top: 0;
+    }
+
+    .logo-block > div > img:last-child{
+        margin-bottom: 0;
+    }
+
+/*  ======================main========logo-block=============== */
+
+/*  ======================main========contact-us=============== */
+
+.input-block > input{
+    margin: 10px 0;
+
+}
+
+.input-block > input:first-child{
+    margin-top: 0;
+    
+}
+
+.input-block > input:last-child{
+    margin-bottom: 0;
+    
+}
+/*  ======================main========contact-us=============== */
+
+}
+
+@media (max-width: 576px){
+
+    .header_text > h2{
+        font-size: 25px;
+    }
+    
+    .header_text > h1{
+        font-size: 35px;
+    }
+
+    
+}

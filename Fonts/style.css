@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Montserrat";
+    src: 
+        url("Montserrat-Regular.ttf") format("ttf"),
+        url("Montserrat-Regular.svg") format("svg"),
+        url("Montserrat-Regular.otf") format("otf"),
+        url("Montserrat-Regular.woff") format("woff"),
+        url("Montserrat-Regular.eot") format("eot"),
+        url("Montserrat-Regular.woff2") format("woff2");
+        
+        font-weight: normal;
+        font-style: normal;
+
+}
+
+@font-face {
+    font-family: "DroidSerif-Italic";
+    src: 
+        url("DroidSerif-Italic.ttf") format("ttf"),
+        url("DroidSerif-Italic.svg") format("svg"),
+        url("DroidSerif-Italic.otf") format("otf"),
+        url("DroidSerif-Italic.woff") format("woff"),
+        url("DroidSerif-Italic.eot") format("eot"),
+        url("DroidSerif-Italic.woff2") format("woff2");
+        
+        font-weight: normal;
+        font-style: normal;
+
+}
+
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: 
+        url("Montserrat-Bold.ttf") format("ttf"),
+        url("Montserrat-Bold.svg") format("svg"),
+        url("Montserrat-Bold.otf") format("otf"),
+        url("Montserrat-Bold.woff") format("woff"),
+        url("Montserrat-Bold.eot") format("eot"),
+        url("Montserrat-Bold.woff2") format("woff2");
+        
+        font-weight: normal;
+        font-style: normal;
+
+}
+
+@font-face {
+    font-family: "RobotoSlab-Regular";
+    src: 
+        url("RobotoSlab-Regular") format("ttf"),
+        url("RobotoSlab-Regular") format("svg"),
+        url("RobotoSlab-Regular") format("otf"),
+        url("RobotoSlab-Regular") format("woff"),
+        url("RobotoSlab-Regular") format("eot"),
+        url("RobotoSlab-Regular") format("woff2");
+        
+        font-weight: normal;
+        font-style: normal;
+
+}
+
